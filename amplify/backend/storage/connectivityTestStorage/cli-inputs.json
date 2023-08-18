@@ -1,0 +1,13 @@
+{
+  "resourceName": "connectivityTestStorage",
+  "policyUUID": "264d2545",
+  "bucketName": "connectivity-test973e7a5a68b540a6a2ad2e3ad5ca4e",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ"
+  ],
+  "triggerFunction": "S3Triggerada0c724",
+  "groupAccess": {}
+}

@@ -14,6 +14,18 @@
     "categories": {
       "api": {
         "amplifyDatasource": {}
+      },
+      "auth": {
+        "connectivitytest662aabbf": {}
+      },
+      "function": {
+        "S3Triggerada0c724": {
+          "deploymentBucketName": "amplify-connectivity-test-dev-104649-deployment",
+          "s3Key": "amplify-builds/S3Triggerada0c724-68722f50704a32417a4b-build.zip"
+        }
+      },
+      "storage": {
+        "connectivityTestStorage": {}
       }
     }
   }
