@@ -9,6 +9,7 @@ frontend:
   phases:
     preBuild:
       commands:
+        - npm install
         - npm ci
     build:
       commands:
