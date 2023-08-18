@@ -7,8 +7,7 @@ const Estado = {
   "CHIHUAHUA": "Chihuahua",
   "COAHUILA": "Coahuila",
   "JALISCO": "Jalisco",
-  "NUEVO": "Nuevo",
-  "LEON": "Leon"
+  "NUEVOLEON": "NUEVOLEON"
 };
 
 const { Cine, Institucion } = initSchema(schema);

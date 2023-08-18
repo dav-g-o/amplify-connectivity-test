@@ -7,8 +7,7 @@ export enum Estado {
   CHIHUAHUA = "Chihuahua",
   COAHUILA = "Coahuila",
   JALISCO = "Jalisco",
-  NUEVO = "Nuevo",
-  LEON = "Leon"
+  NUEVOLEON = "NUEVOLEON"
 }
 
 

@@ -3,18 +3,19 @@ enum Estado {
   Chihuahua
   Coahuila
   Jalisco
-  Nuevo Leon
+  NUEVOLEON
 }
 
-type Cine @model {
+type Cine @model @auth(rules: [{allow: public}]) {
   id: ID!
   nombre: String!
   Ciudad: String!
   Estado: Estado!
 }
 
-type Institucion @model {
+type Institucion @model @auth(rules: [{allow: public}]) {
   id: ID!
   nombre: String!
   nombreRep: String!
 }
+ 
