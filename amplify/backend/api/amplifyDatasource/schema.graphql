@@ -1,0 +1,20 @@
+enum Estado {
+  CDMX
+  Chihuahua
+  Coahuila
+  Jalisco
+  Nuevo Leon
+}
+
+type Cine @model {
+  id: ID!
+  nombre: String!
+  Ciudad: String!
+  Estado: Estado!
+}
+
+type Institucion @model {
+  id: ID!
+  nombre: String!
+  nombreRep: String!
+}
